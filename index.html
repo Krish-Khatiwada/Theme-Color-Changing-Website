@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* :root {
+            --primary-color: #FF0800;
+            --text-color: #58111A;
+            --sec-color: #FF7F7F;
+        } */
+
+        /* :root {
+            --primary-color: #FE5A1D;
+            --text-color: #BA160C;
+            --sec-color: #FED8B1;
+        } */
+        :root {
+            --primary-color: #66FF00;
+            --text-color: #004225;
+            --sec-color: #ACE1AF;
+        }
+        /* :root {
+            --primary-color: #8A2BE2;
+            --text-color: #301934;
+            --sec-color: #DF73FF;
+        } */
+
+        body {
+            background-color: var(--sec-color);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            padding: 20px 0px;
+        }
+
+        .navbar{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin: 0 20px;
+            font-weight: 600;
+            font-size: 30px;
+            font-family: cursive;
+            color: var(--text-color);
+        }
+
+        .button {
+            padding: 25px;
+            text-align: center;
+        }
+
+        .button button {
+            border: none;
+            background-color: #010B13;
+            color: #ffffff;
+            border-radius: 10px;
+            padding: 4px 10px;
+        }
+
+        .button button:hover {
+            color: #010B13;
+            background-color: #ffffff;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div>
+                <img src="https://i.pinimg.com/736x/5b/83/69/5b83693bae2828e7c357855f276520b0.jpg" alt="Logo"
+                    width="50px">
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Products</li>
+                        <li>Pricing</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="button">
+        <button>
+            Change Color
+        </button>
+    </div>
+</body>
+
+</html>
